@@ -38,33 +38,32 @@
     margin: 0;
     outline: 0;
     padding: 0;
-    width: 100%;
     background-color: #e8eeef;
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 10px;
   }
   input[type=text] {
-    width: 50%;
+    width: 40%;
     transition: ease-in-out, width .35s ease-in-out;
   }
   
   input[type=text]:focus {
-    width: 70%;
+    width: 60%;
   }
   input[type=email] {
-    width: 50%;
+    width: 40%;
     transition: ease-in-out, width .35s ease-in-out;
   }
   input[type=email]:focus {
-    width: 70%;
+    width: 60%;
   }
   .select {
-    width: 50%;
+    width: 40%;
     transition: ease-in-out, width .35s ease-in-out;
   }
   .select:focus {
-    width: 70%;
+    width: 60%;
   }
   input[type="radio"],
   input[type="checkbox"] {
@@ -129,7 +128,7 @@
     margin-top: 1em;
   }
   .hr{
-    max-width: 768px;
+    max-width: 400px;
     margin: 0 auto;
     border-top: 3px solid black;
   }
@@ -142,6 +141,24 @@
       display: inline-flex;
       margin-bottom: 8px;
       padding:  10px 0 5px 0;
+    }
+    label{
+      width: 20%;
+    }
+    .contact-info{
+      width: 70%;
+    }
+    .hr{
+      max-width: 768px;
+      margin: 0 auto;
+      border-top: 3px solid black;
+    }
+    .select {
+      width: 40%;
+      transition: ease-in-out, width .35s ease-in-out;
+    }
+    .select:focus {
+      width: 60%;
     }
   }
   
