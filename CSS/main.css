@@ -44,27 +44,35 @@
     margin-bottom: 10px;
   }
   input[type=text] {
-    width: 40%;
+    width: 80%;
     transition: ease-in-out, width .35s ease-in-out;
   }
   
   input[type=text]:focus {
-    width: 60%;
+    width: 100%;
   }
   input[type=email] {
-    width: 40%;
+    width: 80%;
     transition: ease-in-out, width .35s ease-in-out;
   }
   input[type=email]:focus {
-    width: 60%;
+    width: 100%;
   }
   .select {
-    width: 40%;
+    width: 80%;
     transition: ease-in-out, width .35s ease-in-out;
   }
   .select:focus {
-    width: 60%;
+    width: 100%;
   }
+  #zip_code {
+    width: 50%;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+  #zip_code:focus {
+    width: 100%;
+  }
+
   input[type="radio"],
   input[type="checkbox"] {
     margin: 0 4px 8px 0;
@@ -153,12 +161,35 @@
       margin: 0 auto;
       border-top: 3px solid black;
     }
+    input[type=text] {
+      width: 60%;
+      transition: ease-in-out, width .35s ease-in-out;
+    }
+    
+    input[type=text]:focus {
+      width: 70%;
+    }
+    input[type=email] {
+      width: 60%;
+      transition: ease-in-out, width .35s ease-in-out;
+    }
+    input[type=email]:focus {
+      width: 70%;
+    }
     .select {
-      width: 40%;
+      width: 60%;
       transition: ease-in-out, width .35s ease-in-out;
     }
     .select:focus {
-      width: 60%;
+      width: 70%;
     }
+    #zip_code {
+      width: 60%;
+      transition: ease-in-out, width .35s ease-in-out;
+    }
+    #zip_code:focus {
+      width: 70%;
+    }
+  
   }
   

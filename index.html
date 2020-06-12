@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <title>Online Registration Form</Form></title>
 </head>
 <body>
@@ -32,8 +32,8 @@
        <label for="city">City:</label>
         <input type="text" id="city" name="user_city" class="contact-info"><br>
 
-        <label for="State">State</label>
-        <select name="state" id="user_state" class="contact-info select" aria-colindex=">
+        <label for="state">State</label>
+        <select name="state" id="state" class="contact-info select" aria-colindex=">
             <option value="Rwamagana">Rwamagana</option>
             <option value="Kigali">Kigali</option>
             <option value="Kayonza">Kayonza</option>
@@ -49,18 +49,18 @@
         <legend>Newsletter</legend>
         <h4>Select the newsletters you would like to recieve</h4>
                <ul class="checkbox">
-                <input type="checkbox" id="htm" name="html"><label for="HTML">HTML news</label><br>
+                <input type="checkbox" id="html" name="html"><label for="html">HTML news</label><br>
                 <input type="checkbox" id="CSS" name="CSS"> <label for="CSS">CSS Newsletter</label><br>
-                <input type="checkbox" id="javascripts" name="javascripts"> <label for="Javascipts">Javascripts News</label><br>
+                <input type="checkbox" id="javascripts" name="javascripts"> <label for="javascipts">Javascripts News</label><br>
                </ul>
             <h4>Newsletter format</h4>
             <ul class="radio">
              <input type="radio" id="html" name="html"> <label for="HTML">HTML</label><br>
              <input type="radio" id="text" name="text"> <label for="Plain Text">Plain Text</label><br>
             </ul>
-    </fieldset>
-        <h4>Other topics you would like to hear about</h4>
+        <label for="textarea">Other topics you would like to hear about</label>
         <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+    </fieldset>
     <button type="submit" class="submit">Sign Up</button>
        </form>
    </main>
