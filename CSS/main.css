@@ -57,6 +57,13 @@
   input[type=email]:focus {
     width: 100%;
   }
+  input[type=tel] {
+    width: 80%;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+  input[type=tel]:focus {
+    width: 100%;
+  }
   .select {
     width: 80%;
     transition: ease-in-out, width .35s ease-in-out;
@@ -109,7 +116,7 @@
   }
   
   label {
-    display: inline-flex;
+    display: block;
     margin-bottom: 8px;
     padding:  5px 0 3px 0;
   }
@@ -151,6 +158,9 @@
     }
     label{
       width: 20%;
+      display: inline-flex;
+      margin-bottom: 8px;
+      padding:  5px 0 3px 0;
     }
     .contact-info{
       width: 70%;
@@ -175,11 +185,11 @@
     input[type=email]:focus {
       width: 70%;
     }
-    input[type=number] {
+    input[type=tel] {
       width: 60%;
       transition: ease-in-out, width .35s ease-in-out;
     }
-    input[type=number]:focus {
+    input[type=tel]:focus {
       width: 70%;
     }
     .select {
@@ -195,6 +205,9 @@
     }
     #zip_code:focus {
       width: 70%;
+    }
+    .textarea{
+      width: 50%;
     }
   
   }
