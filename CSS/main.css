@@ -30,18 +30,17 @@
   
   input[type="text"],
   input[type="email"],
-  textarea,{
+  textarea{
     background: rgba(255,255,255,0.1);
-    border: none;
+    border: 1px solid #000;
     font-size: 16px;
     height: auto;
-    margin: 0;
     outline: 0;
-    padding: 0;
     background-color: #e8eeef;
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    padding:  10px 0 5px 0;
   }
   input[type=text] {
     width: 80%;
@@ -147,8 +146,8 @@
     }
     .contact-info {
       display: inline-flex;
-      margin-bottom: 8px;
-      padding:  10px 0 5px 0;
+      /*margin-bottom: 8px;
+      padding:  10px 0 5px 0;*/
     }
     label{
       width: 20%;
@@ -176,6 +175,13 @@
     input[type=email]:focus {
       width: 70%;
     }
+    input[type=number] {
+      width: 60%;
+      transition: ease-in-out, width .35s ease-in-out;
+    }
+    input[type=number]:focus {
+      width: 70%;
+    }
     .select {
       width: 60%;
       transition: ease-in-out, width .35s ease-in-out;
@@ -184,7 +190,7 @@
       width: 70%;
     }
     #zip_code {
-      width: 60%;
+      width: 25%;
       transition: ease-in-out, width .35s ease-in-out;
     }
     #zip_code:focus {
